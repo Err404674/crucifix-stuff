@@ -329,7 +329,8 @@ dupeCrucifix.Event:Connect(function(time, entityRoot)
     -- hl.FillTransparency = 1
     -- hl.OutlineColor = Color3.fromRGB(75, 177, 255)
     fakeCross.Anchored = true
-
+    
+    CrucifixTool:Destroy()
 
     -- for i, v in pairs(fakeCross:GetChildren()) do
     --     if v.Name == "E" and v:IsA("BasePart") then
